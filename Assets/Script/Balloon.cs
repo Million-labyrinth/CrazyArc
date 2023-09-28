@@ -29,6 +29,7 @@ public class Balloon : MonoBehaviour
 
     void OnEnable()
     {
+        Debug.Log("존나게 공부중");
         Invoke("Boom", 3f);
         Invoke("Finish", 5f);
     }
