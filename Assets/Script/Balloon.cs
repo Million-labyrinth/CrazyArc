@@ -29,7 +29,7 @@ public class Balloon : MonoBehaviour
 
     void OnEnable()
     {
-        Debug.Log("존나게 공부중");
+        
         Invoke("Boom", 3f);
         Invoke("Finish", 5f);
     }
@@ -37,9 +37,8 @@ public class Balloon : MonoBehaviour
     void Update()
     {
         Ray();
-        Debug.Log("깃 허브 연습");
-        Debug.Log("깃 허브 연습2");
-        Debug.Log("깃 허브 연습3");
+        
+        
     }
 
     void Boom()
