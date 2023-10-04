@@ -38,7 +38,8 @@ public class Balloon : MonoBehaviour
     {
         Ray();
         Debug.Log("깃 허브 연습");
-         Debug.Log("깃 허브 연습2");
+        Debug.Log("깃 허브 연습2");
+        Debug.Log("깃 허브 연습3");
     }
 
     void Boom()
