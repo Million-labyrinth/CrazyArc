@@ -1,4 +1,5 @@
 
+using System.Reflection.PortableExecutable;
 using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
@@ -29,7 +30,7 @@ public class Balloon : MonoBehaviour
 
     void OnEnable()
     {
-        
+
         Invoke("Boom", 3f);
         Invoke("Finish", 5f);
     }
@@ -37,8 +38,9 @@ public class Balloon : MonoBehaviour
     void Update()
     {
         Ray();
-        
-        
+        Debug.Log("테스트");
+
+
     }
 
     void Boom()
